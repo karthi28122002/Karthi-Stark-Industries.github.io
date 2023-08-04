@@ -1171,7 +1171,7 @@ body {
         background-image: url(../Images/Stark_Tower.png);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 55.6vh;
+        height: 87.6vh;
     }
 
     .Header_Two_Section .background-image .row .Banner-box .card {
@@ -1494,5 +1494,219 @@ body {
     .Header_Six_Section .Form-Section .Form-Group .row .input-box .form-control {
         border-radius: 2px;
         height: 40px;
+    }
+
+    .Header_Seven_Section .End-page .row .logo {
+        height: 100px;
+        width: 250px;
+    }
+
+    .Header_Seven_Section .End-page .row .About-us {
+        width: 110px;
+    }
+
+    .Header_Seven_Section .End-page .row .Innovation {
+        width: 187px;
+    }
+
+    .Header_Seven_Section .End-page .row .News-Career {
+        width: 120px;
+    }
+
+    .Header_Seven_Section .End-page .row .Contact-us {
+        width: 135px;
+    }
+
+    .Header_Seven_Section .End-page .row .Social-links {
+        width: 188px;
+    }
+
+    .Header_Seven_Section .End-page .row .About-us span {
+        display: flex;
+        color: white;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .Header_Seven_Section .End-page .row .About-us .list_group .list-item {
+        list-style: none;
+        display: flex;
+        color: white;
+        margin-left: 0;
+        font-size: 11px;
+    }
+
+    .Header_Seven_Section .End-page .row .Innovation span {
+        display: flex;
+        color: white;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
+    .Header_Seven_Section .End-page .row .Innovation .list_group .list-item {
+        list-style: none;
+        display: flex;
+        color: white;
+        margin-left: 0;
+        font-size: 11px;
+    }
+
+    .Header_Seven_Section .End-page .row .Innovation span {
+        display: flex;
+        color: white;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .Header_Seven_Section .End-page .row .News-Career span {
+        display: flex;
+        color: white;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .Header_Seven_Section .End-page .row .News-Career .career {
+        display: flex;
+        color: white;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .Header_Seven_Section .End-page .row .News-Career .list_group .list-item {
+        list-style: none;
+        display: flex;
+        color: white;
+        margin-left: 0;
+        font-size: 11px;
+    }    
+
+    .Header_Seven_Section .End-page .row .Contact-us span {
+        display: flex;
+        color: white;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .Header_Seven_Section .End-page .row .Contact-us .list_group .list-item {
+        list-style: none;
+        display: flex;
+        color: white;
+        margin-left: 0;
+        font-size: 11px;
+    }
+
+    .Header_Seven_Section .End-page .row .Social-links .social-media-links .nav-links {
+        margin-right: 7px;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .Header_Seven_Section .End-page .end-links {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 58px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:769px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        background: radial-gradient(#353c44, #222931 1000vw);
+        justify-content: space-around;
+        z-index: 10;
+    }
+
+    .collapse:not(.show) {
+        display: none!important;
+    }
+
+    .Header_One_Section .background-image {
+        background-image: url(../Images/Stark_Tower.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 73.6vh;
+    }
+
+    .Header_One_Section .background-image .Main-titles {
+        display: inline-block;
+        position: relative;
+        top: 15vh;
+        left: 5vh;
+    }
+
+    .Header_One_Section .background-image .Main-titles h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 68vw;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card {
+        background: radial-gradient(#353c44, #222931 1000vw);
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        width: 10rem!important;
+        box-shadow: 0px 0px 10px 4px;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box {
+        max-width: 318px;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card .card-body .card-text {
+        text-align: center;
+        font-size: 15px;
+        display: none;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card .card-body .card-title {
+        text-align: center;
+        font-size: 9px;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card .card-body .btn {
+        display: block;
+        color: #29b1cf;
+        background: #0c0f11;
+        height: 28px;
+        border-color: #3d96aa;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+    }
+
+    .Header_Two_Section .background-image {
+        background-image: url(../Images/Globe_Background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
     }
 }
