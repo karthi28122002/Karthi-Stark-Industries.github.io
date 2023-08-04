@@ -1,0 +1,1063 @@
+body {
+   /* background: radial-gradient(#353c44, #222931 1000vw); */
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    0%, 100% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1; 
+    }
+  }
+
+  .Header-Navbar-Section .bg-dark {
+    background: radial-gradient(#353c44, #222931 1000vw);
+    height: 110px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item {
+    margin-right: 30px;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item .dropdown-menu.show {
+    background: #0c0f11; 
+    border: 1px solid #3d96aa;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    color: #29b1cf;
+    text-align: center;
+    transition: .2s ease-in;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    color: #fff;
+    background-color: #3d96aa;
+    transition: .2s ease-out;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item .dropdown-item.active, .dropdown-item:active {
+    color: white!important;
+    text-decoration: none;
+    background-color: #0fb2d6;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item .nav-link {
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s ease-in;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(252, 132, 19);
+    transition: .3s ease-out;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .navbar-nav {
+    margin-right: 35px;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .form-inline .btn-outline-success {
+    color: #29b1cf;
+    background: #0c0f11;
+    border-color: #3d96aa;
+}
+
+.Header-Navbar-Section .bg-dark .collapse .form-inline .btn-outline-success:hover {
+    color: #fff;
+    background-color: #3d96aa;
+    border-color: #29b1cf;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgb(42 211 203 / 50%);
+}
+
+.Header_One_Section .background-image {
+    background-image: url(../Images/Stark_Tower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88.6vh;
+}
+
+.Header_One_Section .background-image .Main-titles {
+    display: inline-block;
+    position: relative;
+    top: 30vh;
+    left: 5vh;
+}
+
+.Header_One_Section .background-image .Main-titles h4 {
+    color: white;
+    letter-spacing: 5px;
+}
+
+.Header_One_Section .background-image .Main-titles h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 48vw;
+}
+
+.Header_One_Section .background-image .line-border {
+    border: 1px solid white;
+    width: 600px;
+}
+
+.Header_One_Section .background-image .leading-tech {
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 15px;
+}
+
+.Header_Two_Section .background-image {
+    background-image: url(../Images/Globe_Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.Header_Two_Section .background-image .row {
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Header_Two_Section .background-image .row .Banner-box {
+    max-width: 318px;
+    margin: 78.8px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Header_Two_Section .background-image .row .Banner-box .card {
+    background: radial-gradient(#353c44, #222931 1000vw);
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 4px;
+}
+
+.Header_Two_Section .background-image .row .Banner-box .card img {
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.Header_Two_Section .background-image .row .Banner-box .card:hover img {
+    transform: scale(1.05);
+}
+
+.Header_Two_Section .background-image .row .Banner-box .card .card-body {
+    
+}
+
+.Header_Two_Section .background-image .row .Banner-box .card .card-body .card-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Two_Section .background-image .row .Banner-box .card .card-body .card-text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Two_Section .background-image .row .Banner-box .card .card-body .btn {
+    display: block;
+    color: #29b1cf;
+    background: #0c0f11;
+    border-color: #3d96aa;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Two_Section .background-image .row .Banner-box .card .card-body .btn:hover {
+    color: #fff;
+    background-color: #3d96aa;
+    border-color: #29b1cf;
+}
+
+.Header_Three_Section .main-content {
+
+}
+
+.Header_Three_Section .main-content .row {
+    margin: 0;
+}
+
+.Header_Three_Section .main-content .row .About-Us {
+    
+}
+
+.Header_Three_Section .main-content .row .About-Us .About-us-inside {
+    display: inline-block;
+    width: 38vw;
+    position: relative;
+    top: 9vw;
+    left: 83px;
+}
+
+.Header_Three_Section .main-content .row .About-Us .About-us-inside h3 {
+    font-size: 37px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: rgb(252, 132, 19);
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Three_Section .main-content .row .About-Us .About-us-inside .line {
+    border: 1px solid rgb(252, 132, 19);
+    width: 155px;
+}
+
+.Header_Three_Section .main-content .row .About-Us .About-us-inside p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.Header_Three_Section .main-content .row .About-Us .About-us-inside .btn-warning {
+    color: white;
+    background-color: rgb(252, 132, 19);
+    border-color: rgb(252, 132, 19);
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Three_Section .main-content .row .About-Us-image {
+    background-image: url(../Images/About_us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 572px;
+    max-width: 951px;
+}
+
+.Header_Three_Section .main-content-Two .row {
+    margin: 0;
+}
+
+.Header_Three_Section .main-content-Two .row .Our-Vision-image {
+    background-image: url(../Images/Arc_Reactor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 572px;
+    max-width: 951px;
+}
+
+.Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside {
+    display: inline-block;
+    width: 38vw;
+    position: relative;
+    top: 9vw;
+    left: 83px;
+}
+
+.Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside h3 {
+    font-size: 37px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: rgb(252, 132, 19);
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside .line {
+    border: 1px solid rgb(252, 132, 19);
+    width: 155px;
+}
+
+.Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside .btn-warning {
+    color: white;
+    background-color: rgb(252, 132, 19);
+    border-color: rgb(252, 132, 19);
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Four_Section .Director_profile {
+    background: radial-gradient(#353c44, #222931 1000vw);
+    height: 23vw;
+}
+
+.Header_Four_Section .Director_profile .faces_of_S_I {
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    left: 160px;
+    color: rgb(252, 132, 19);
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Four_Section .Director_profile .line {
+    border: 1px solid rgb(252, 132, 19);
+    display: inline-block;
+    width: 105px;
+    position: relative;
+    top: 53px;
+    right: 372px;
+}
+
+.Header_Four_Section .Director_profile .row {
+    margin: 0;
+    position: relative;
+    top: 90px;
+}
+
+.Header_Four_Section .Director_profile .row .Stark_Profile {
+    max-width: 410px;
+}
+
+.Header_Four_Section .Director_profile .row .Stark_Profile .stark_img {
+    display: inline-block;
+    border-radius: 100px;
+    background: rgb(252, 132, 19);
+    border: 8px solid rgb(252, 132, 19);
+    margin: 130px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 59px;
+}
+
+.Header_Four_Section .Director_profile .row .Stark_Profile .stark_img img {
+    max-width: 190px;
+    border-radius: 100px;
+}
+
+.Header_Four_Section .Director_profile .row .Potts_Profile .potts_img {
+    display: inline-block;
+    border-radius: 100px;
+    background: rgb(252, 132, 19);
+    border: 8px solid rgb(252, 132, 19);
+    margin: 130px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 59px;
+}
+
+.Header_Four_Section .Director_profile .row .Potts_Profile .potts_img img {
+    max-width: 190px;
+    border-radius: 100px;
+}
+
+.Header_Four_Section .Director_profile .row .Potts_Profile {
+    max-width: 410px;
+}
+
+.Header_Four_Section .Director_profile .row .Stark_Info {
+    
+}
+
+.Header_Four_Section .Director_profile .row .Potts_Info {
+    
+}
+
+.Header_Four_Section .Director_profile .row .Stark_Info h3{
+    color: rgb(252, 132, 19);
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Four_Section .Director_profile .row .Stark_Info h4 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Four_Section .Director_profile .row .Stark_Info p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.Header_Four_Section .Director_profile .row .Potts_Info h3 {
+    color: rgb(252, 132, 19);
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Four_Section .Director_profile .row .Potts_Info h4 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Four_Section .Director_profile .row .Potts_Info p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.Header_Five_Section .Blog_Page {
+ background-image: url('../Images/Blog_Background.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ max-width: 100vw;
+ height: 43vw;
+}
+
+.Header_Five_Section .Blog_Page h3 {
+    display: flex;
+    position: relative;
+    top: 65px;
+    color: rgb(252, 132, 19);
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Header_Five_Section .Blog_Page .row {
+    margin: 0;
+    position: relative;
+    top: 115px;
+    display: flex;
+    justify-content: center;
+}
+
+.Header_Five_Section .Blog_Page .row .Blog-Banner-Box {
+    max-width: 414px;
+    margin: 110.1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card {
+    background: radial-gradient(#353c44, #222931 1000vw);
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 4px;
+}
+
+
+.Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card img {
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card:hover img {
+    transform: scale(1.05);
+}
+
+.Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card .card-body {
+
+}
+
+.Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card .card-body h5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card .card-body p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Five_Section .Blog_Page .row .Blog-View-More {
+
+}
+
+.Header_Five_Section .Blog_Page .row .Blog-View-More .view-more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 55px;
+    position: relative;
+}
+
+.Header_Five_Section .Blog_Page .row .Blog-View-More .view-more-btn .btn {
+    color: white;
+    background-color: rgb(252, 132, 19);
+    border-color: rgb(252, 132, 19);
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_Six_Section {
+    background: rgb(252, 132, 19);
+    height: 27vw;
+}
+
+.Header_Six_Section .Form-Section .Form-Group {
+    background-image: url(../Images/Form_Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 57vw;
+    height: 26vw;
+    border-radius: 5px;
+    position: relative;
+    bottom: 50px;
+}
+
+.Header_Six_Section .Form-Section .Form-Group h3 {
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 17px;
+    display: inline-block;
+}
+
+.Header_Six_Section .Form-Section .Form-Group .line {
+    border: 1px solid white;
+    display: inline-block;
+    width: 90px;
+    position: relative;
+    right: 152px;
+    top: 35px;
+}
+
+.Header_Six_Section .Form-Section .Form-Group .row {
+    margin: 0;
+    margin-top: 45px;
+}
+
+.Header_Six_Section .Form-Section .Form-Group .row .input-box {
+    
+}
+
+.Header_Six_Section .Form-Section .Form-Group .row .input-box label {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.Header_Six_Section .Form-Section .Form-Group .row .input-box .form-control {
+    border-radius: 2px;
+}
+
+.Header_Seven_Section .End-page {
+    background: radial-gradient(#353c44, #222931 1000vw);
+    height: 290px;
+}
+
+.Header_Seven_Section .End-page .row {
+    margin: 0;
+}
+
+.Header_Seven_Section .End-page .row .logo {
+    height: 100px;
+}
+
+.Header_Seven_Section .End-page .row .logo .navbar-brand {
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 30px;
+}
+
+.Header_Seven_Section .End-page .row .About-us {
+
+}
+
+.Header_Seven_Section .End-page .row .About-us span {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Header_Seven_Section .End-page .row .About-us .list_group {
+    padding: 0;
+}
+
+.Header_Seven_Section .End-page .row .About-us .list_group .list-item {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-left: 25px;
+}
+
+.Header_Seven_Section .End-page .row .About-us .list_group .list-item .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.Header_Seven_Section .End-page .row .Innovation {
+    
+}
+
+.Header_Seven_Section .End-page .row .Innovation span {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Header_Seven_Section .End-page .row .Innovation .list_group {
+    padding: 0;
+}
+
+.Header_Seven_Section .End-page .row .Innovation .list_group .list-item {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-left: 25px;
+}
+
+.Header_Seven_Section .End-page .row .Innovation .list_group .list-item .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.Header_Seven_Section .End-page .row .News-Career {
+    
+}
+
+.Header_Seven_Section .End-page .row .News-Career span {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Header_Seven_Section .End-page .row .News-Career .career {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+.Header_Seven_Section .End-page .row .News-Career .list_group {
+    padding: 0;
+}
+
+.Header_Seven_Section .End-page .row .News-Career .list_group .list-item {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-left: 25px;
+}
+
+.Header_Seven_Section .End-page .row .News-Career .list_group .list-item .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.Header_Seven_Section .End-page .row .Contact-us {
+    
+}
+
+.Header_Seven_Section .End-page .row .Contact-us span {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Header_Seven_Section .End-page .row .Contact-us .list_group {
+    padding: 0;
+}
+
+.Header_Seven_Section .End-page .row .Contact-us .list_group .list-item {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-left: 25px;
+}
+
+.Header_Seven_Section .End-page .row .Contact-us .list_group .list-item .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.Header_Seven_Section .End-page .row .Social-links {
+    
+}
+
+.Header_Seven_Section .End-page .row .Social-links .social-media-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Header_Seven_Section .End-page .row .Social-links .social-media-links .nav-links {
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.Header_Seven_Section .End-page .end-links {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.Header_Seven_Section .End-page .end-links .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Header_Seven_Section .End-page .end-links .list i {
+    font-size: 12px;
+}
+
+.Header_Seven_Section .End-page .end-links .list .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.Header_Seven_Section .End-page .end-links .list .line {
+    border: 1px solid;
+    height: 18px;
+    display: inline-block;
+}
+
+/* Media Query Starts ----------------------------------------------------------------------------------------------------------------------------------------- Media Query Starts*/ 
+
+@media (max-width:1366px) {
+
+    .Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item .nav-link {
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+        transition: .3s ease-in;
+        font-size: 13px;
+    }
+
+    .Header_One_Section .background-image .Main-titles {
+        display: inline-block;
+        position: relative;
+        top: 20vh;
+        left: 5vh;
+    }    
+
+    .Header_One_Section .background-image .Main-titles h2 {
+        color: white;
+        font-size: 45px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 48vw;
+    }
+
+    .Header_One_Section .background-image .Main-titles h4 {
+        color: white;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+
+    .Header_One_Section .background-image .line-border {
+        border: 1px solid white;
+        width: 320px;
+    }
+    
+    
+    .Header_Two_Section .background-image .row .Banner-box .card {
+        background: radial-gradient(#353c44, #222931 1000vw);
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        max-width: 221px;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box {
+        max-width: 318px;
+        margin: 9.5px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card .card-body .card-text {
+        text-align: center;
+        font-size: 11px;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card .card-body .card-title {
+        text-align: center;
+        font-size: 14px;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us .About-us-inside h3 {
+        font-size: 29px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us .About-us-inside .line {
+        border: 1px solid rgb(252, 132, 19);
+        width: 100px;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us .About-us-inside p {
+        text-align: justify;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us-image {
+        background-image: url(../Images/About_us.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        max-width: 951px;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card .card-body .btn {
+        display: block;
+        color: #29b1cf;
+        background: #0c0f11;
+        border-color: #3d96aa;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+    }
+
+    .Header-Navbar-Section .bg-dark .collapse .form-inline .form-control {
+        height: 30px;
+        width: 155px;
+        font-size: 12px;
+    }
+
+    .Header-Navbar-Section .bg-dark .collapse .form-inline .btn {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .Header_Three_Section .main-content-Two .row .Our-Vision-image {
+        background-image: url(../Images/Arc_Reactor.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        max-width: 951px;
+    }
+
+    .Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside p {
+        text-align: justify;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+    }
+
+    .Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside h3 {
+        font-size: 29px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Four_Section .Director_profile .faces_of_S_I {
+        display: inline-block;
+        position: relative;
+        top: 45px;
+        left: 160px;
+        font-size: 20px;
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Four_Section .Director_profile .line {
+        border: 1px solid rgb(252, 132, 19);
+        display: inline-block;
+        width: 95px;
+        position: relative;
+        top: 53px;
+        right: 226px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Profile .stark_img img {
+        max-width: 135px;
+        border-radius: 100px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Profile {
+        max-width: 320px;
+        height: 11vw;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Info h3 {
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Info h4 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Info p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        font-size: 11px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Profile {
+        max-width: 320px;
+        height: 11vw;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Profile {
+        max-width: 320px;
+        height: 11vw;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Profile .potts_img img {
+        max-width: 135px;
+        border-radius: 100px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Info h3 {
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Info h4 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Info p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        font-size: 11px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Profile .stark_img {
+        display: inline-block;
+        border-radius: 100px;
+        background: rgb(252, 132, 19);
+        border: 8px solid rgb(252, 132, 19);
+        margin: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 59px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Profile .potts_img {
+        display: inline-block;
+        border-radius: 100px;
+        background: rgb(252, 132, 19);
+        border: 8px solid rgb(252, 132, 19);
+        margin: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 59px;
+    }
+
+    .Header_Four_Section .Director_profile {
+        background: radial-gradient(#353c44, #222931 1000vw);
+        height: 25vw;
+    }
+
+    .Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card {
+        background: radial-gradient(#353c44, #222931 1000vw);
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px 4px;
+        width: 16rem!important;
+    }
+
+    .Header_Five_Section .Blog_Page .row .Blog-Banner-Box {
+        max-width: 414px;
+        margin: 17.7px;
+        margin-top: 0;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+    .Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card .card-body h5 {
+        text-align: center;
+        font-size: 14px;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card .card-body p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Five_Section .Blog_Page .row {
+        margin: 0;
+        position: relative;
+        top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Header_Five_Section .Blog_Page h3 {
+        display: flex;
+        position: relative;
+        top: 40px;
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Header_Five_Section .Blog_Page .row .Blog-View-More .view-more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 22px;
+    position: relative;
+    }   
+}
