@@ -754,7 +754,7 @@ body {
 
 /* Media Query Starts ----------------------------------------------------------------------------------------------------------------------------------------- Media Query Starts*/ 
 
-@media (max-width:1366px) {
+@media (min-width:1366px) {
 
     .Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item .nav-link {
         color: lightgray;
@@ -1060,4 +1060,439 @@ body {
     top: 22px;
     position: relative;
     }   
+
+    
+    .Header_Six_Section .Form-Section .Form-Group {
+        background-image: url(../Images/Form_Banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 82vw;
+        height: 30vw;
+        border-radius: 5px;
+        position: relative;
+        bottom: 32px;
+    }
+
+.Header_Six_Section .Form-Section .Form-Group .row {
+    margin: 0;
+    margin-top: 24px;
+}
+
+.Header_Six_Section .Form-Section .Form-Group h3 {
+    color: white;
+    position: relative;
+    top: 16px;
+    left: 17px;
+    display: inline-block;
+}
+.Header_Six_Section .Form-Section .Form-Group .line {
+    border: 1px solid white;
+    display: inline-block;
+    width: 90px;
+    position: relative;
+    right: 152px;
+    top: 25px;
+}
+
+.Header_Six_Section {
+    background: rgb(252, 132, 19);
+    height: 32vw;
+}
+
+.Header_Seven_Section .End-page .row .logo .navbar-brand {
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 30px;
+    left: 28px;
+}
+
+.Header_Seven_Section .End-page {
+    background: radial-gradient(#353c44, #222931 1000vw);
+    height: 305px;
+}
+
+
+}
+
+@media (min-width:992px) {
+    .Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item {
+        margin-right: 10px;
+    }
+    
+    .Header-Navbar-Section .bg-dark .collapse .navbar-nav .nav-item .nav-link {
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+        transition: .3s ease-in;
+        font-size: 11px;
+    }
+    
+    .form-inline .form-control {
+        display: inline-block;
+        width: 115px;
+        height: 30px;
+        font-size: 11px;
+        vertical-align: middle;
+    }
+
+    .Header-Navbar-Section .bg-dark .collapse .form-inline .btn-outline-success {
+        color: #29b1cf;
+        background: #0c0f11;
+        border-color: #3d96aa;
+        width: 55px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    .Header_One_Section .background-image .Main-titles {
+        display: inline-block;
+        position: relative;
+        top: 10vh;
+        left: 5vh;
+    }
+
+    .Header_One_Section .background-image .Main-titles h4 {
+        color: white;
+        letter-spacing: 5px;
+        font-size: 19px;
+    }
+
+    .Header_One_Section .background-image .Main-titles h2 {
+        color: white;
+        font-size: 54px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 67vw;
+    }
+
+    .Header_One_Section .background-image {
+        background-image: url(../Images/Stark_Tower.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 55.6vh;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card {
+        background: radial-gradient(#353c44, #222931 1000vw);
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        width: 13rem!important;
+        box-shadow: 0px 0px 10px 4px;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card .card-body .card-title {
+        text-align: center;
+        font-size: 12px;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card .card-body .card-text {
+        text-align: center;
+        font-size: 10px;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box .card .card-body .btn {
+        display: block;
+        color: #29b1cf;
+        background: #0c0f11;
+        height: 30px;
+        font-size: 11px;
+        border-color: #3d96aa;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Two_Section .background-image .row .Banner-box {
+        max-width: 318px;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us .About-us-inside {
+        display: inline-block;
+        width: 38vw;
+        position: relative;
+        top: 2vw;
+        left: 46px;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us .About-us-inside h3 {
+        font-size: 25px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us .About-us-inside .line {
+        border: 1px solid rgb(252, 132, 19);
+        width: 89px;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us .About-us-inside p {
+        text-align: justify;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us .About-us-inside .btn-warning {
+        color: white;
+        background-color: rgb(252, 132, 19);
+        border-color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+        width: 92px;
+        height: 32px;
+        font-size: 9px;
+    }
+
+    .Header_Three_Section .main-content .row .About-Us {
+        display: inline-block;
+        width: 496px;
+    }
+    
+
+    .Header_Three_Section .main-content .row .About-Us-image {
+        background-image: url(../Images/About_us.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 294px;
+        max-width: 496px;
+    }
+
+    .Header_Three_Section .main-content-Two .row .Our-Vision-image {
+        background-image: url(../Images/Arc_Reactor.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 294px;
+        max-width: 496px;
+    }
+
+    .Header_Three_Section .main-content-Two .row .Our-Vision {
+        display: inline-block;
+        width: 496px;
+    }
+
+    .Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside p {
+        text-align: justify;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+    }
+
+    .Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside h3 {
+        font-size: 25px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside .btn-warning {
+        color: white;
+        background-color: rgb(252, 132, 19);
+        border-color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+        width: 92px;
+        height: 32px;
+        font-size: 9px;
+    }
+
+    .Header_Three_Section .main-content-Two .row .Our-Vision .Our-Vision-inside {
+        display: inline-block;
+        width: 38vw;
+        position: relative;
+        top: 5vw;
+        left: 55px;
+    }
+
+    .Header_Four_Section .Director_profile {
+        background: radial-gradient(#353c44, #222931 1000vw);
+        height: 68vw;
+    }
+
+    .Header_Four_Section .Director_profile .faces_of_S_I {
+        display: inline-block;
+        position: relative;
+        top: 45px;
+        left: 45px;
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Header_Four_Section .Director_profile .line {
+        border: 1px solid rgb(252, 132, 19);
+        display: inline-block;
+        width: 105px;
+        position: relative;
+        top: 53px;
+        right: 487px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Profile .stark_img {
+        display: inline-block;
+        border-radius: 100px;
+        background: rgb(252, 132, 19);
+        border: 8px solid rgb(252, 132, 19);
+        margin: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 59px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Profile .stark_img img {
+        max-width: 160px;
+        border-radius: 100px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Info {
+        width: 711px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Stark_Profile {
+        margin-bottom: 50px;
+        max-width: 281px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Profile {
+        max-width: 281px;
+        margin-top: 50px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Profile .potts_img {
+        display: inline-block;
+        border-radius: 100px;
+        background: rgb(252, 132, 19);
+        border: 8px solid rgb(252, 132, 19);
+        margin: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 59px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Profile .potts_img img {
+        max-width: 160px;
+        border-radius: 100px;
+    }
+
+    .Header_Four_Section .Director_profile .row .Potts_Info {
+        width: 711px;
+        margin-top: 50px;
+    }
+
+    .Header_Five_Section .Blog_Page h3 {
+        display: flex;
+        position: relative;
+        top: 20px;
+        color: rgb(252, 132, 19);
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Header_Five_Section .Blog_Page .row {
+        margin: 0;
+        position: relative;
+        top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card {
+        background: radial-gradient(#353c44, #222931 1000vw);
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        width: 16rem!important;
+        box-shadow: 0px 0px 10px 4px;
+    }
+
+    .Header_Five_Section .Blog_Page .row .Blog-Banner-Box {
+        max-width: 288px;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+    .Header_Five_Section .Blog_Page {
+        background-image: url(../Images/Blog_Background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100vw;
+        height: 64vw;
+    }
+
+    .Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card .card-body h5 {
+        text-align: center;
+        font-size: 14px;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .Header_Five_Section .Blog_Page .row .Blog-Banner-Box .card .card-body p {
+        text-align: center;
+        font-size: 10px;
+        font-weight: bolder;
+        color: lightgray;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .Header_Six_Section {
+        background: rgb(252, 132, 19);
+        height: 43vw;
+    }
+
+    .Header_Six_Section .Form-Section .Form-Group {
+        background-image: url(../Images/Form_Banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 94vw;
+        height: 41vw;
+        border-radius: 5px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .Header_Six_Section .Form-Section .Form-Group h3 {
+        color: white;
+        position: relative;
+        top: 8px;
+        left: 17px;
+        display: inline-block;
+    }
+
+    .Header_Six_Section .Form-Section .Form-Group .line {
+        border: 1px solid white;
+        display: inline-block;
+        width: 90px;
+        position: relative;
+        right: 152px;
+        top: 18px;
+    }
+
+    .Header_Six_Section .Form-Section .Form-Group .row {
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .Header_Six_Section .Form-Section .Form-Group .row .input-box label {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+    }
+
+    .Header_Six_Section .Form-Section .Form-Group .row .input-box .form-control {
+        border-radius: 2px;
+        height: 40px;
+    }
 }
