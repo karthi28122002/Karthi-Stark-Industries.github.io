@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Courgette&family=Jost&family=Lilita+One&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>Stark Industries | Home</title>
     <link rel="shortcut icon" type="image/jpg" href="./assets/Images/android-chrome-512x512.png"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!--Header Navbar Section Starts-->
@@ -146,7 +147,7 @@
 
     <!--Header Three Section Starts-->
     <section class="Header_Three_Section">
-      <div class="main-content">
+      <div class="main-content" data-aos="fade-up">
          <div class="row">
           <div class="col-xl-6  col-lg-6 col-md-12 About-Us">
            <div class="About-us-inside">
@@ -163,7 +164,7 @@
          </div>
       </div>
 
-      <div class="main-content-Two">
+      <div class="main-content-Two" data-aos="fade-up">
         <div class="row">
             <div class="col-xl-6  col-lg-6 col-md-12 Our-Vision-image">
             </div>
@@ -187,7 +188,7 @@
        <div class="Director_profile">
          <h3 class="faces_of_S_I">MEET THE FACES OF STARK INDUSTRIES</h3>
          <div class="line"></div>
-         <div class="row">
+         <div class="row" data-aos="fade-down">
            <div class="col-xl-3 Stark_Profile">
              <div class="stark_img">
                <img src="./assets/Images/Tony_Stark.png" alt="">
@@ -222,7 +223,7 @@
         <div class="Blog_Page">
           <h3>LATEST NEWS</h3>
           <div class="row">
-            <div class="col-xl-4 Blog-Banner-Box">
+            <div class="col-xl-4 Blog-Banner-Box" data-aos="fade-down">
                 <div class="card" style="width: 24rem;">
                     <img src="./assets/Images/BLog_Img_1.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -232,7 +233,7 @@
                   </div>
             </div>
 
-          <div class="col-xl-4 Blog-Banner-Box">
+          <div class="col-xl-4 Blog-Banner-Box" data-aos="fade-up">
               <div class="card" style="width: 24rem;">
                   <img src="./assets/Images/Blog_Img_2.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -242,7 +243,7 @@
                 </div>
            </div>
 
-           <div class="col-xl-4 Blog-Banner-Box">
+           <div class="col-xl-4 Blog-Banner-Box" data-aos="fade-down">
               <div class="card" style="width: 24rem;">
                   <img src="./assets/Images/Blog_Img_3.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -265,7 +266,7 @@
     <!--Header Six Section Starts-->
        <section class="Header_Six_Section">
          <div class="container Form-Section">
-          <form class="Form-Group">
+          <form class="Form-Group" data-aos="zoom-out">
             <h3>CONTACT US</h3>
             <div class="line"></div>
             <div class="row section-1">
@@ -385,5 +386,12 @@
     <!--Header Seven Section Ends-->
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>
+
+<script>
+  AOS.init({
+  duration: 1200,
+})
+</script>
