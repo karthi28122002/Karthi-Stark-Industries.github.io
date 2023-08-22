@@ -71,6 +71,10 @@ body.dark-mode #navcolormode {
 .Header-Navbar-Section .bg-dark {
     background: rgb(255, 255, 255)!important;
     height: 110px;
+    height: 80px;
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 1000;
 }
 
 .navbar-expand-lg .navbar-collapse {
